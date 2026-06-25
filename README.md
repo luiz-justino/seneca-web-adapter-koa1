@@ -3,7 +3,7 @@
 
 # @seneca/web-adapter-koa1
 
-[![npm version](https://img.shields.io/npm/v/@seneca/web-adapter-koa1.svg)](https://npmjs.com/package/@seneca/web-adapter-koa1)
+[![npm version](https://img.shields.io/npm/v/seneca-web-adapter-koa1.svg)](https://npmjs.com/package/seneca-web-adapter-koa1)
 [![build](https://github.com/senecajs/seneca-web-adapter-koa1/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-web-adapter-koa1/actions/workflows/build.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-web-adapter-koa1/badge.svg)](https://snyk.io/test/github/senecajs/seneca-web-adapter-koa1)
 
@@ -38,8 +38,10 @@ Koa v1 adapter for [seneca-web](https://github.com/senecajs/seneca-web). Maps HT
 
 If you're using this module and need help, you can:
 
-- Post a [github issue][]
-- Tweet to [@senecajs][]
+- Post a [github issue](https://github.com/senecajs/seneca-web-adapter-koa1/issues)
+- Tweet to [@senecajs](http://twitter.com/senecajs)
+- Ask on the [Gitter](https://gitter.im/senecajs/seneca)
+
 
 ## API
 
