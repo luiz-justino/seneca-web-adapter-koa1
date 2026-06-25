@@ -7,9 +7,6 @@
 [![build](https://github.com/senecajs/seneca-web-adapter-koa1/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-web-adapter-koa1/actions/workflows/build.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-web-adapter-koa1/badge.svg)](https://snyk.io/test/github/senecajs/seneca-web-adapter-koa1)
 
-
-
-
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
 
@@ -61,5 +58,4 @@ npm run test
 ## Background
 
 Part of the [seneca-web](https://github.com/senecajs/seneca-web) adapter family. For Koa v2 see [seneca-web-adapter-koa2](https://github.com/senecajs/seneca-web-adapter-koa2).
-
 
