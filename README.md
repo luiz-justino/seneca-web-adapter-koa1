@@ -21,7 +21,7 @@ npm install --save koa-router
 npm install --save seneca
 npm install --save seneca-web
 npm install --save seneca-web-adapter-koa1
-```
+```js
 
 ## Quick Example
 
@@ -39,7 +39,7 @@ seneca.use(SenecaWeb, {
 seneca.ready(() => {
   app.use(seneca.export('web/context')().routes())
 })
-```
+```js
 
 ## More Examples
 
@@ -71,7 +71,7 @@ The [Senecajs org][] encourages open participation. If you feel you can help in 
 
 ```sh
 npm run test
-```
+```js
 
 ## Background
 
