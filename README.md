@@ -15,17 +15,16 @@
 
 Peer dependencies have been specified for `koa`, `koa-router` and `seneca-web`. They need to be present for this to work at all.
 
-```sh
+```
 npm install --save koa
 npm install --save koa-router
 npm install --save seneca
 npm install --save seneca-web
 npm install --save seneca-web-adapter-koa1
-```js
-
+```
 ## Quick Example
 
-```js
+```
 const Seneca = require('seneca')
 const SenecaWeb = require('seneca-web')
 const Koa = require('koa')
@@ -39,8 +38,7 @@ seneca.use(SenecaWeb, {
 seneca.ready(() => {
   app.use(seneca.export('web/context')().routes())
 })
-```js
-
+```
 ## More Examples
 
 See [test/](test/) for usage examples.
@@ -69,10 +67,9 @@ The [Senecajs org][] encourages open participation. If you feel you can help in 
 
 ### Running tests
 
-```sh
+```
 npm run test
-```js
-
+```
 ## Background
 
 Part of the [seneca-web](https://github.com/senecajs/seneca-web) adapter family. For Koa v2 see [seneca-web-adapter-koa2](https://github.com/senecajs/seneca-web-adapter-koa2).
